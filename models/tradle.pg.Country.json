@@ -1,0 +1,37 @@
+{
+  "id": "tradle.pg.Country",
+  "title": "Country",
+  "subClassOf": "tradle.Enum",
+  "type": "tradle.Model",
+  "properties": {
+    "country": {
+      "displayName": true,
+      "type": "string"
+    }
+  },
+  "required": [
+    "country"
+  ],
+  "enum": [
+    {
+      "id": "NZ",
+      "title": "New Zealand"
+    },
+    {
+      "id": "AU",
+      "title": "Australia"
+    },
+    {
+      "id": "UK",
+      "title": "United Kingdom"
+    },
+    {
+      "id": "SA",
+      "title": "South Africa"
+    },
+    {
+      "id": "CN",
+      "title": "China"
+    }
+  ]
+}

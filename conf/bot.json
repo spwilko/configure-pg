@@ -1,0 +1,74 @@
+{
+  "products": {
+    "enabled": [
+      "tradle.pg.CustomerOnboarding",
+      "nl.tradle.DigitalPassport",
+      "tradle.CorporateBankAccount",
+      "tradle.EmployeeOnboarding",
+      "tradle.LifeInsurance",
+      "tradle.MortgageProduct"
+    ],
+    "autoApprove": false,
+    "autoVerify": false,
+    "approveAllEmployees": true,
+    "plugins": {
+      "customize-message": {
+        "tradle.FormRequest": {
+          "tradle.PhotoID": "Please click to scan your **ID document**",
+          "tradle.Selfie": "Thank you. Now take a '**selfie**' photo of yourself that I can match against your ID document",
+          "tradle.Residence": {
+            "first": "Thank you. Now I need you to provide your **residence** information",
+            "nth": "Thank you. Do you have another **residence**? If yes, tap Add, otherwise tap Next"
+          }
+        },
+        "tradle.Confirmation": {
+          "tradle.Remediation": "Thanks for importing your data!"
+        }
+      }
+    }
+  },
+  "tours": {
+    "intro": {
+      "_t": "tradle.Tour",
+      "message": "Take a quick tour of chat bot?",
+      "pages": [
+        {
+        "title": "Ready?",
+        "description": "Finally, you will be in control of your own private information!",
+        "img": "https://s3.amazonaws.com/app.tradle.io/pg/PG.png",
+        "imgStyle": {
+          "height": 59,
+          "width": 59
+        },
+        "backgroundColor": "#4CB0CA",
+        "fontColor": "#fff",
+        "level": 10
+      },
+      {
+        "title": "Get set",
+        "description": "Before we start you'll need a valid passport, identity card or driving license",
+        "img": "https://s3.amazonaws.com/app.tradle.io/pg/PG.png",
+        "imgStyle": {
+          "height": 59,
+          "width": 59
+        },
+        "backgroundColor": "#FBB825",
+        "fontColor": "#fff",
+        "level": 10
+      },
+      {
+        "title": "Go!",
+        "description": "We'll ask you questions in the chat and you simply fill the forms or follow the requests",
+        "img": "https://s3.amazonaws.com/app.tradle.io/pg/PG.png",
+        "imgStyle": {
+          "height": 59,
+          "width": 59
+        },
+        "backgroundColor": "#3AC9C1",
+        "fontColor": "#fff",
+        "level": 10
+      }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tradle.pg.InPerson",
+  "type": "tradle.Model",
+  "title": "In Person Verification",
+  "subClassOf": "tradle.Form",
+  "style": {
+    "backgroundColor": "#EBE1FA"
+  },
+  "properties": {
+    "_t": {
+      "type": "string",
+      "readOnly": true
+    },
+    "InPersonVerification": {
+      "type": "boolean",
+      "title": "Is this an in person verification?"
+    }
+  },
+  "editCols": [
+    "InPersonVerification"
+  ],
+  "required": [
+    "InPersonVerification"
+  ],
+  "viewCols": [
+    "InPersonVerification"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tradle.pg.CustomerOnboardingInPerson",
+  "title": "Customer Onboarding in Person",
+  "type": "tradle.Model",
+  "subClassOf": "tradle.FinancialProduct",
+  "customerCanHaveMultiple": true,
+  "forms": [
+    "tradle.pg.InPerson",
+    "tradle.pg.PersonalDetails",
+    "tradle.pg.PhotoID",
+    "tradle.Selfie",
+    "tradle.pg.Address"
+  ],
+  "properties": {}
+}
