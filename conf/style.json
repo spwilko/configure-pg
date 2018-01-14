@@ -1,0 +1,12 @@
+{
+  "_t": "tradle.StylesPack",
+  "backgroundImage": {
+    "url": "https://tradle-public-images.s3.amazonaws.com/bg/blue-underwater-gradient-opacity-15-860x484.png"
+  },
+  "logo": {
+    "url": "https://s3.amazonaws.com/app.tradle.io/pg/PG.png"
+  },
+  "verifiedBorderColor": "#777777",
+  "logoNeedsText": true,
+  "splashscreen": "https://s3.amazonaws.com/app.tradle.io/pg/splash.html"
+}
