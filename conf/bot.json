@@ -1,12 +1,7 @@
 {
   "products": {
     "enabled": [
-      "tradle.pg.CustomerOnboarding",
-      "nl.tradle.DigitalPassport",
-      "tradle.CorporateBankAccount",
-      "tradle.EmployeeOnboarding",
-      "tradle.LifeInsurance",
-      "tradle.MortgageProduct"
+      "tradle.pg.CustomerOnboarding"
     ],
     "autoApprove": false,
     "autoVerify": false,
